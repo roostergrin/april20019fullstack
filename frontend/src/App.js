@@ -1,5 +1,5 @@
 import React, { useState, useEffect }  from 'react';
-import fetchApi from './services/festchApi'
+import fetchApi from './services/fetchApi'
 
 function App() {
   const [data, setData] = useState({ locations: [] })
